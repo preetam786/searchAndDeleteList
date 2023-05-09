@@ -1,0 +1,39 @@
+.user-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    border: 0.5px solid darkgray;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.user-card-content-container {
+    display: flex;
+}
+
+.profile-pic {
+    height: 80px;
+    width: 80px;
+    margin-right: 20px;
+}
+
+.user-name {
+    font-size: 20px;
+}
+
+.user-designation {
+    font-size: 14px;
+}
+
+.delete-button {
+    margin-left: 60px;
+    border-style: none;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.delete-img {
+    width: 10px;
+    height: 10px;
+}
